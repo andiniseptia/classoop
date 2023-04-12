@@ -53,7 +53,7 @@ int main()
 	mataKuliah mk;
 
 	mhs.input();
-	mhs.printData()
+	mhs.printData();
 
 	mk.inputMK();
 	mk.tampil();
