@@ -28,7 +28,15 @@ void Mahasiswa::printData() {
 class mataKuliah {
 private:
 	string kode;
-	string nama;
+	string namaMK;
 	int sks;
+public:
+	void input() {
+		cout << "\n\nMasukkan kode matakuliah : ";
+		cin >> kode;
+		cout << "Masukkan Nama MAtakuliah : ";
+		cin >> namaMK;
+		cout << "Masukkan sks : ";
+		cin >> sks;
 	}
 };
