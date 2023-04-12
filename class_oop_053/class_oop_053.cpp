@@ -34,9 +34,15 @@ public:
 	void input() {
 		cout << "\n\nMasukkan kode matakuliah : ";
 		cin >> kode;
-		cout << "Masukkan Nama MAtakuliah : ";
+		cout << "Masukkan Nama matakuliah : ";
 		cin >> namaMK;
 		cout << "Masukkan sks : ";
 		cin >> sks;
+	}
+	void tampil() {
+		cout << "\nData matakuliah : ";
+		cout << "\nKode matakuliah : " << kode;
+		cout << "\nNama matakuliah : " << namaMk;
+		cout << "\nsks : " << sks;
 	}
 };
